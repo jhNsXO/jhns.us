@@ -87,15 +87,3 @@ input {
     padding: 5px;
     width: 100%;
 }
-
-/* Mascot */
-
-#mascot {
-    background-repeat: no-repeat;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}

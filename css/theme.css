@@ -58,14 +58,6 @@ input {
     height: 15px;
 }
 
-/* Mascot */
-
-#mascot {
-    background-image: url("../images/mascots/mascot.png");
-    background-position: left bottom;
-    background-size: auto 400px;
-}
-
 /* Others */
 
 #searchForm {
