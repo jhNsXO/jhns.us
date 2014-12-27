@@ -1,0 +1,101 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+/* Header */
+
+header {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.block-content {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    margin: 0 auto 5px;
+    padding: 10px;
+}
+
+/* Blocks */
+
+.block-content ul {
+    flex: 1 1 auto;
+    list-style: none;
+    margin: 5px 10px;
+    padding: 0;
+}
+
+.block-wrapper {
+    display: flex;
+    margin: 0 auto 5px;
+    width: 50%;
+}
+
+.block {
+    background-color: #fff;
+    flex: 1 1 auto;
+    margin-right: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.block:last-of-type,
+a:last-of-type {
+    margin-right: 0;
+}
+
+.block.half-size {
+    flex-basis: 50%;
+}
+
+a {                     /* What was this thing supposed to do? */
+    flex: 1 1 auto;
+    margin-right: 5px;
+}
+
+/* Form */
+
+.clear-flex {
+    display: block;
+    width: 100%;
+}
+
+input {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Mascot */
+
+#mascot {
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
