@@ -14,7 +14,10 @@ body {
     font-family: Arial;
     background-color: #e0e0e0;
     background-image: url(../images/background.jpg);
-    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #757575;
 }
 
