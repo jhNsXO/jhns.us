@@ -7,6 +7,13 @@ h1 {
 	text-shadow: 0.1em 0.0em 0.1em rgba(0,0,0, 1.0);
 }
 
+/* html */
+
+html {
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+}
+
 /* Body */
 
 body {
