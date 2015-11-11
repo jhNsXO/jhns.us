@@ -13,11 +13,8 @@ body {
     font-size: 10pt;
     font-family: Arial;
     background-color: #e0e0e0;
-    background-image: url('images/background.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+		background-size: cover;
+    background-image: url('../images/background.jpg');
 }
 
 /* Blocks */
