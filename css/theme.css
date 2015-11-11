@@ -11,18 +11,21 @@ h1 {
 
 html {
 	background-image: url('../images/background.jpg');
-	background-size: cover;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 
 /* Body */
 
-body {
+/* body {
     font-size: 10pt;
     font-family: Arial;
     background-color: #e0e0e0;
     background-image: url('../images/background.jpg');
 		background-size: cover;
-}
+} */
 
 /* Blocks */
 
