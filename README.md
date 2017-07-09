@@ -1,3 +1,3 @@
-# jhnsxo.github.io
+# jhnsxo
 ~
-My dumb Homepage
+dumb
